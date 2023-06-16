@@ -6,8 +6,6 @@ You won’t have a lot of instruction, you are free to implement it the way that
 Here the final result:
 
 ![Alt text](60df485eb772ecbad54a.jpg)
-![Alt text](60df485eb772ecbad54a-1.jpg)
-![Alt text](60df485eb772ecbad54a-2.jpg)
 
 This webpage has been designed by Nicolas Philippot, UI/UX designer. You can find final screens here
 
