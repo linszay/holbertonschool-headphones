@@ -1,0 +1,83 @@
+html {
+    font-family: 'source sans pro', 'Wingdings Regular';
+    color: var(--text-color);
+}
+
+:root {
+    --primary-color: #FF6565;
+    --text-color: #FFFFFF;
+}
+
+body {
+    background-image: url(/images/mainback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.7rem;
+    margin-left: 12.6rem;
+    margin-right: 12.4rem;
+    margin-bottom: 46rem;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none; 
+    font-size: 12px;
+}
+
+a:hover {
+    color: #FF6565;
+}
+
+.nav-links {
+    display: inline-flex;
+    gap: 2.6rem;
+}
+
+.lorem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 39.8rem;
+    height: 19.5rem;
+    flex-shrink: 0;
+    margin-bottom: 7.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23rem;
+    text-align: center;
+}
+
+.lorem > h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.lorem > span {
+    font-weight: 700;
+}
+
+.lorem > button {
+    background: var(--primary-color);
+    border-radius: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    color: var(--text-color);
+}
+
+.lorem > button:hover {
+    opacity: 0.9
+}
