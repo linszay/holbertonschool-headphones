@@ -90,9 +90,6 @@ section {
 .about {
     background-color: #FFFFFF;
     color: black;
-    display: flex;
-    align-items: center;
-    text-align: center;
     
     .info {
         display: flex;
@@ -101,5 +98,74 @@ section {
         text-align: center;
         flex-wrap: wrap;
         gap: 20px;
+    }
+}
+
+.results {
+    background-image: url(/images/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .pentagons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .pentagon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+
+        padding: 4rem;
+
+        background-image: url(/images/LargePolygon.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+        & > h3 {
+            font-size: 32px;
+        }
+    }
+}
+
+.contact {
+    background-color: white;
+    color: black;
+    font-size: 32px;
+
+    & > input {
+        border: none;
+        border-bottom: 1px solid #0000003d;
+        
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+
+        min-width: 400px;
+    }
+}
+
+footer {
+    padding-top: 3rem;
+    gap: 3rem;
+    color:gray;
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .footer-icons {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        align-items: center;
+        justify-content: space-between;
     }
 }
